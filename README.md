@@ -1,6 +1,9 @@
 # 💫 About Me:
 I'm currently working on some project about what I spent studying through self-study.<br><br>I would appreciate some advice on what I should study next and any errors I made when writing the code.<br><br> And teach me how to use github also. <br><br>
 
+# ❌ What I can't do: 
+I still cannot figure out how to make my site responsive for phone screens, and other aspects.<br><br>
+But I'm willing to learn more about it.<br><br>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jeffisworking14) 
