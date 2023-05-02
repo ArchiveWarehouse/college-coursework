@@ -1,0 +1,205 @@
+<!-- DONE -->
+<!--!!注意!!
+  1. Live Server 必ず使ってください。
+  2. 直接 Open in browser を使うなら、失敗する可能性があります。
+                                -リッチ　ジョハン　ジェファソン
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポケモン</title>
+  
+<style>
+/*Header, sidenav*/
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 10;
+  
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+/*+60px start from 1160px*/
+/* #first {
+  top: 1100px;
+  background-color: yellow;
+  color: black;
+} */
+
+#second {
+  top: 1920px;
+  background-color: yellow;
+  color: black;
+}
+
+#third {
+  top: 2080px;
+  background-color: black;
+  color: white;
+}
+
+#fourth {
+  top: 3040px;
+  background-color: yellow;
+  color: black;
+}
+/* #fifth {
+  top: 1340px;
+  background-color: yellow;
+  color: black;
+}
+#sixth {
+  top: 1220px;
+  background-color: black;
+  color: white;
+}
+#seventh {
+  top: 1280px;
+  background-color: yellow;
+  color: black;
+}
+#eight {
+  top: 1340px;
+  background-color: black;
+  color: white;
+}
+#ninth {
+  top: 1400px;
+  background-color: yellow;
+  color: black;
+}
+
+#tenth {
+  top: 560px;
+  background-color: black;
+  color: white;
+}
+#eleven {
+  top: 1160px;
+  background-color: yellow;
+  color: black;
+} */
+
+/*main*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url(../images/first\ image.jpg);
+  min-height: 650px;
+}
+
+.bgimg-2 {
+  background-image: url(../images/second\ image.jpg);
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url(../images/592678.jpg);
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+</style>
+</head>
+<body>
+  
+
+<div id="mySidenav" class="sidenav">
+  <!-- <a href="./about.html" id="first">About</a> -->
+  <a href="./about.html" id="second">About</a>
+  <a href="./story.html" id="third">Story</a>
+  <!-- <a href="./favpokemon.html" id="fourth">好きな</a> -->
+  <!-- <a href="about.html" id="fifth">戻る</a> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</div>
+  <div class="bgimg-1">
+    <div class="caption">
+    <!-- <span class="border"></span> -->
+    </div>
+  </div>
+  
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">私の好きなポケモン!</h3>
+    <p style="font-size: 20px;">ポケモンのことは知りませんが、ポケモンがわからないからといって、好きなポケモンものがないわけではありません。</p>
+    </div>
+  
+  <div class="bgimg-2">
+    <div class="caption">
+    <span class="border" style="font-size:25px;color: white;">私の好きなポケモン知りたいですか？</span>
+    </div>
+  </div>
+  
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <span style="font-size: 30px;"><center><p>本当に知りたい？</p></center></span>
+    </div>
+  </div>
+  
+  <div class="bgimg-3">
+    <div class="caption">
+    <span class="border" style="padding:2px;background-color:#000;font-size:25px;color: white;">その前に、sidebarを押してください</span>
+    </div>
+  </div>
+
+  <div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>@リッチ　ジョハン　ジェファソン</p>
+    </div>
+  </div>
+  
+
+
+    
+   
+</body>
+</html> 

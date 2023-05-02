@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/*header
+li a{
+    float: left;
+}*/
+/*href developer.mozilla.org/ja/docs/Web/CSS/box-sizing
+
+samurai engineer 初心者必見*/
+html *{
+    box-sizing: border-box;
+}
+a{
+    
+    text-decoration: none;   
+    color: black ;
+}
+/*menu header*/
+a:link{
+    color:darkred;
+}
+a:visited{
+    color:rgb(199, 37, 37);
+}
+a:hover{
+    color: chocolate;
+}
+a:active{
+    color:green;
+}
+nav ul{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0;
+    
+}
+/*header*/
+.wrap{
+    margin: 0 auto;
+    width: 80%;
+}
+img{
+    
+    max-width: 100%;
+    height: auto;
+}
+
+nav li{
+    list-style-type: none;
+}
+/*body*/
+body{
+    background-color: bisque;
+}
+/*text over an image
+.container {
+    position: relative;
+    color: white;
+    font-size: x-large;
+}
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 63px;
+} */
+/*table*/
+
+/*text*/
+
+h2{
+    color: #973a35;
+    border-bottom: 4px dotted #973a35; /*solid, dotted, dashed*/
+    font-size: 22px;
+    padding: 10px;
+    /*font-family:sans-serif; フォント*/
+}
+h1{
+    text-align: center;/*中央寄せ（テキスト以外も可能）*/
+    background-image: url(images/burger.png);
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+
+
+/* shopinfo.html */
+.shopinfo{
+    display: flex;
+}
+.shopinfo img{
+    margin-right: 1em;
+}
+.info{
+    border-collapse: collapse;
+}
+.info th, .info td{
+    padding: 8px;
+    border: 1px solid #973a35;
+    text-align: left;
+}
+.info th{
+    background-color: #ffc7c7;
+    width: 90px;
+    color: #973a35;
+    vertical-align: top;
+}
+/*access.html*/
+.map{
+    text-align: center;
+    
+    
+}
+/*menu.html*/
+.menu_item{
+    margin-top: 50px;
+    display: flex;
+}
+.menu_item img{
+    margin-right: 1em;
+}
+/*inquiry.html*/
+form div{
+    padding: 12px;
+    border-bottom: 1px dashed #973a35;
+}
+select{
+    width: 30em;
+}
+
+input[name="text"]{
+    width: 30em;
+}
+textarea{
+    width: 30em;
+    height: 6em;
+}
+input[type="submit"]{
+    margin: 20px 0;
+    width: 30em;
+}
+/*index.html*/
+.mv{
+    position: relative;/*基準*/
+    
+}
+.mv p{
+    position: absolute;
+    top: 80px;
+    left: 63px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;/*太さ　400が基準*/
+    text-shadow: 15px 2px 10px rgba(255, 0, 0, 0.8);
+}/*水平方向　垂直方向距離　ぼかし半径　色*/
+/*Footer*/
+footer{
+    background-image: url(images/footer.png);
+    /* 飾りの画像は<img>じゃなくて背景画像で入れる */
+    background-repeat: repeat-x;
+    
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+/* スマホ向けーメディアクエリ */
+@media(max-width: 767px){
+    .wrap{
+        width: 100%;
+    }
+    h1{
+        margin: 0;
+        padding: 20px;
+        background-position: left bottom;
+        background-size: 15%;
+    }
+
+    h1 img{
+        width:200px;
+    }
+    nav{
+        background-color: #dfddda;
+    }
+    nav ul{ /*display: flex; を削除=display:block;*/
+        display: block;
+        padding: 20px;
+
+    }
+    .mv p{
+        font-size: 30px;
+        top: 50px;
+        left: 50px;
+    }
+   .shopinfo{
+        display: block;
+   }
+    .shopinfo img{
+        width: 100%;
+        margin-right: 0;
+    }  
+    .menu_item{
+        display: block;
+    }
+    select,
+    textarea,
+    input[type="text"],
+    input[type="submit"]{
+        width: 100%;
+    }
+}

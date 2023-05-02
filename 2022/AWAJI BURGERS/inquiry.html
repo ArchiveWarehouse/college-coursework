@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>淡路バーガー</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="wrap"><!--div wrap-->
+
+        
+        <header>
+        <!--alt =写真の説明-->
+        <h1><a href="index.html"><img src="images/logo.png" alt="AWAJI BURGER"></a></h1>
+
+        <!--unorder list 順番のないリスト shortcut ctrl+/-->
+        <nav><!--いちばん重要なナビ（グローバルナビゲーション）-->
+            <b><ul><!--ul>li*5-->
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="shopinfotrial.html">SHOPINFO </a></li>
+                <li><a href="access.html">ACCESS </a></li>
+                <li><a href="menu.html">MENU </a></li>
+                <li><a href="inquiry.html">INQUIRY </a></li>
+            </ul></b>
+            </nav>
+        </header>
+        <main>
+            <h2>INQUIRY</h2>
+            <!-- formタグに囲まれている内容が送信ボタンで送信された -->
+            <form action="result.html" method="get">
+                <div>        
+                    お問い合わせの種類<br>
+
+                    <select name="kind" id="">
+                        <option value="res">ご予約</option>
+                        <option value="eve">イベントについて</option>
+                        <option value="other">その他のお問い合わせ</option>
+                    </select>
+                </div>
+                
+                <div>
+                <!-- ラジオボタン/はい・いいえなど少ない選択肢から一つ -->
+                    KUJIRA Cafeにご来店いただいたことはありますか。<br>
+                    <label>
+                        <input type="radio" name="first" value="yes" checked>はい
+                    </label>
+                    <label>
+                        <input type="radio" name="first" value="no">いいえ
+                    </label>
+                </div>    
+
+                <div>
+                    <!-- チェックボックス複数選べる -->
+                    当カフェをお知りになったきっかけは？<br>
+                    <label>
+                        <input type="checkbox" name="how" id="" value="friend">知り合いの紹介で
+                    </label>
+                    <label>
+                        <input type="checkbox" name="how" id="" value="magazine">雑誌・Webサイトで見て
+                    </label>
+                    </div>
+
+                <div>
+                    <!-- テキストボックス/ -->
+                    お問い合わせの件名<br>
+                    <input type="text" name="subject" placeholder="お問い合わせ">
+                </div>
+
+                <div>
+                    <!-- テキストエリア/文章 -->
+                    お問い合わせの具体的な内容<br>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <!-- 送信ボタン/formたぐの中身を送る -->
+                    <input type="submit" name="submit" value="送信">
+                </div>
+            </form>
+
+        </main>
+        <footer>
+        <marquee><p>©Copyright BURGER  JAPAN. All rights reserved.</p></marquee>
+        </footer>
+    </div>
+    </body>
+
+
+</html>
