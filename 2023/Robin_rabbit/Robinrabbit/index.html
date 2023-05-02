@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ロビン</title>
+    <link rel="stylesheet" href="index.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    
+</head>
+<body>
+        <header>
+            <a href="index.html"><img src="/images/logo.png" alt="" class="logo" height="66px" width="166px"></a>
+            <nav>
+                <ul class="beside">
+                    <li><a href="index.html#intro">ロビンの紹介</a></li>
+                    <li><a href="index.html#photo">写真集</a></li><p hidden>リッチ ジョハン ジェファソン</p>
+                    <li>
+                        <a href="https://instagram.com/">
+                            <img src="/images/icon-instagram.png" alt="" class="instagram">
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+            <p hidden>リッチ ジョハン ジェファソン</p>
+        </header>
+
+        <main>
+            <!-- Use slick with other mv img -->
+            <div class="intro2"> 
+                <a href="#photo4"><img src="/images/mv02.jpg" alt=""></a>
+                <a href=""><img src="/images/mv01.jpg" alt=""></a>
+                <a href="#photo2"><img src="/images/mv03.jpg" alt=""></a>
+                <!-- <img src="/images/mv03.jpg" alt=""> -->
+            </div>
+        <div class="wrap">
+            <div class="robin_intro">
+
+                <div class="intext" id="intro4">
+                    <div class="botleft">
+                        <h2 id="intro">ロビンの紹介</h2>
+                    </div>
+                </div>
+
+                <div class="about_box" style="width: 70%;align-items: center; margin-left: 15%;">
+                    
+                    <div class="robin_about">
+                        <img src="/images/about.jpg" alt="" 
+                        
+                        style=
+                            "border-radius: 50%;",
+                            height="130px",
+                            
+                        >
+                    </div>
+
+                    <div class="text_box" style="padding-left: 35px;padding-top: 5px; width: 70%;">
+                        <b>Robin(ニホンウサギ、茶色)</b><br>
+                        Robinはニホンノウサギ です。本州と四国、九州に広く生息するノウサギの仲間。 体長は50㎝ほど。 日本の固有種で、世界に生息するノウサギと比べると小柄で足やしっぽ、耳は短めです。
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="gallery">
+
+                <div class="intext" id="gallerytext">
+                    <div class="botleft">
+                        <h2 id="photo">写真集</h2>
+                    </div>
+                </div>
+
+                <div class="robin_gallery">
+                    <table>
+                        <tr>
+                            <td id="photo1"><img src="/images/photo01.jpg" alt=""></td>
+                            <td id="photo2"><img src="/images/photo02.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td id="photo3"><img src="/images/photo03.jpg" alt=""></td>
+                            <td id="photo4"><img src="/images/photo04.jpg" alt=""></td>
+                        </tr>
+                    </table>
+
+
+                </div>
+
+
+            </div>
+        
+        </div>
+        </main>
+
+        <footer>
+            <p style="margin-left: 15%;">@2022 Robin's fan club</p>
+            <p hidden>リッチ ジョハン ジェファソン</p>
+        </footer>
+            <!-- </div> -->
+    
+
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <script>
+              $(document).ready(function(){
+                 $('.intro2').slick({
+                 // setting-name: setting-value
+                 dots:true,
+                 autoplay: true,
+                 autoplaySpeed: 800,
+                 infinite: true,
+                 fade: true,
+                 cssEase: 'linear',
+                 });
+             });</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+html{
+    padding-top: 20px;
+    width: 100% ;
+    font-size: 16px;
+}
+
+
+/* .wrap{
+    width: 1000px;
+    margin: 0 auto;s
+} */
+
+/* header */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.beside{
+    padding-top: 20px;
+    list-style-type: none;
+    display: flex;
+
+    justify-content: space-between ; 
+    padding-left: 550px;
+}
+.logo{
+    display: flex;
+    float: left;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    padding-left: 200px;
+}
+.instagram{
+    width: 4%;
+}
+
+/* main */
+.intro2{
+    padding-top: 20px;
+    width: 100%;
+}
+.intro2 img{
+    width: 100%;
+}
+.intext{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* robin intro*/
+
+.wrap{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.botleft{
+    border-left: solid 5px;
+}
+h2{
+    font-size: 24px;
+    margin-left: 15px;   
+}
+
+/* img and context */
+.about_box{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+
+}
+
+.text-box{
+    display: flex;
+    float: right;
+    padding-left: 35px;
+    /* margin-top: -5%; */
+    
+}
+table{
+    border-spacing: 30px;
+}
+
+
+footer{
+    height: 100px;
+   
+    color: white;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+}
+
+@media screen and (max-width:767px){
+
+    main{
+        width: 100%;
+    }
+    /* .wrap{
+        width: 100%;
+    } */
+    nav ul{
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        margin-left: -80%;
+        justify-content: space-between;
+    }
+   
+    /* .intext{
+        margin-left: -20%;
+    } */
+    .intext{
+        margin-left: 10%;
+    }
+    .logo{
+        align-items: center;
+    }
+    .about_box, .text-box, .robin_intro, .gallery, .robin_gallery{
+        display: block;
+    }
+    .robin_about{
+        display: block;
+        margin: 0 auto;
+        margin-left: 29%;
+        /* padding-top: ; */
+    }
+    #intro4{
+        margin-left: 15%;
+    }
+    #gallerytext{
+        margin-left: -20%;
+    }
+    .robin_intro{
+        width: 950px;
+        margin-left: -60%;
+    }
+    .text-box{
+        text-align: left;
+        width: 100%;
+    }
+    #photo1, #photo2, #photo3, #photo4{
+        display: block;
+        width: 100%;
+        margin-left: -19%;
+    }
+    
+    footer{
+        text-align: left;
+
+    }
+}
