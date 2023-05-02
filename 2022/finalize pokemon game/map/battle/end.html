@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポケモンモンスター</title>
+    <!-- reset.css destyle -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <style>
+        html{
+            background-color: #018672;
+		}
+		.btn{
+		display: block;
+		width: 50px;
+		height: 50px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 50%;
+		text-align: center;
+		line-height: 60px;
+		}
+		.escape{
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
+		}
+		.material-symbols-outlined{
+		color: black;
+		}
+  
+/* ポケモンやられたアニメーション  */
+.end-poke{
+    width: 70%;
+    margin: 0 auto;
+}
+/* ポケモンやられたアニメーション */
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+@-webkit-keyframes sample1 {
+	from {
+		-webkit-animation-timing-function: linear;
+		-webkit-transform: translate(0px,0px) scale(1,1) rotate(0deg) skew(0deg,0deg);
+		opacity: 1;
+	} to {
+		-webkit-animation-timing-function: linear;
+		-webkit-transform: translate(60px,0px) scale(1,1) rotate(55deg) skew(0deg,0deg);
+		opacity: 1.0;
+	} 50% {
+		-webkit-animation-timing-function: linear;
+		-webkit-transform: translate(0px,0px) scale(1,1) rotate(-15deg) skew(0deg,0deg);
+		opacity: 1.0;
+	} 
+}
+
+@keyframes sample1 {
+	from {
+		animation-timing-function: linear;
+		transform: translate(0px,0px) scale(1,1) rotate(0deg) skew(0deg,0deg);
+		opacity: 1;
+	} to {
+		animation-timing-function: linear;
+		transform: translate(60px,0px) scale(1,1) rotate(55deg) skew(0deg,0deg);
+		opacity: 1.0;
+	} 50% {
+		animation-timing-function: linear;
+		transform: translate(0px,0px) scale(1,1) rotate(-15deg) skew(0deg,0deg);
+		opacity: 1.0;
+	} 
+}
+
+.sample1 {
+	-webkit-animation-name: sample1;
+	animation-name: sample1;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+
+
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <!-- <h2>エンドフィールど</h2> -->
+    <img class="end-poke animated sample1" src="" alt="">
+    <p style="text-align: center;" class="end-text">やったーポケモンをやっつけた！</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+
+
+<!-- ひとつ前のページに戻るボタン -->
+<a class="btn escape" href="../loading_end.html">
+    <span class="material-symbols-outlined">
+        logout
+    </span>
+</a>
+
+
+<a href=""></a>
+<a href=""></a>
+
+
+<script>
+	var timer = setTimeout(function() {
+		window.location='pokeball.html'
+	}, 1000);
+  </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/./js/mapbattle.js"></script>
+</body>
+</html>

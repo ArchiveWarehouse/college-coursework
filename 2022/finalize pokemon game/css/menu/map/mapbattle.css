@@ -1,0 +1,450 @@
+/* css for map.html and battle.html */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+
+html
+{
+    background-color: #dfe6e9;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 56px;
+    text-shadow: 2px 2px 2px red, 4px 4px 1em yellow, 4px 4px 0.2em yellow;
+    /* text-decoration-color: white; */
+    color: white;
+}
+.btn{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+}
+.escape{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.material-symbols-outlined{
+    color: white;
+}
+.map img{
+    /* background-image: url(/photoshop/img_for_psd/Pokemon-Scarlet-and-Violet-there-are-a-lot-of-pictures-of-Paldea-s-map-and-new-Pokemon.jpeg    ); */
+    height: 100%;
+    width: 100%;
+    background: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1920px 1200px;
+}
+/* .map{
+    width: 160px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%,0);
+} */
+
+/* .point{
+    background-color: #b7221c;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 50%;
+    animation: updown2 2s infinite;
+}
+@keyframes updown2{
+    0%{
+        transform: translate(0,0) scale(2,2);
+        opacity: 1;
+    }
+    50%{
+        transform: translate(0,0) scale(1,1);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0) scale(2,2) ;
+        opacity: 1;
+    }
+
+} */
+/* https://10015.io/tools/css-loader-generator */
+.point{
+    width: 22.4px;
+    height: 22.4px;
+    border-radius: 50%;
+    background: #b7221c;
+    box-shadow: 0 0 0 0 rgba(224, 57, 57, 0.5);
+    animation: pulse-c6zlskmd 1s infinite;
+ }
+ 
+ @keyframes pulse-c6zlskmd {
+    100% {
+       box-shadow: 0 0 0 33.6px #0000;
+    }
+ }
+
+/* dot */
+.dot{
+    position: absolute;
+    top: 520px;
+    left: 750px;
+}
+.dot2{
+    position: absolute;
+    top: 320px;
+    right: 350px;
+}
+.dot3{
+    position: absolute;
+    top: 380px;
+    left: 250px;
+}
+.fa-arrow-down{
+    color: #000000;
+    margin: 0 auto;
+}
+
+/* battle */
+.poke img{
+    width: 150px;
+    height: auto;
+}
+
+.area-a{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.area-b{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+.area-c{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.area-c img{
+    width: 250px;
+}
+
+
+/* battle2.html */
+
+h2  {
+    color: #333; 
+    -webkit-text-stroke: 1px #333;
+    -webkit-text-fill-color: transparent;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    text-align: center;
+  }
+#fish-tank {
+    width: 100%;
+    height: 100%;
+    background-color: #c7ddff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+        /* bubble */
+  #bubble-field {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  @keyframes bubble {
+      0% { 
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        -o-transform: translateX(10px); 
+      }
+      50% { 
+        transform: translateX(-10px);
+        -webkit-transform: translateX(-10px);
+        -moz-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        -o-transform: translateX(-10px); 
+      }
+      100% { 
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+        -moz-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        -o-transform: translateX(10px); 
+      }
+  }
+  
+  .bubble {
+      position: relative;
+      box-shadow: 0px 0px 12px 5px inset #fff;
+      -webkit-box-shadow: 0px 0px 12px 5px inset #fff;
+      -moz-box-shadow: 0px 0px 12px 5px inset #fff;
+      -o-box-shadow: 0px 0px 12px 5px inset #fff;
+      -ms-box-shadow: 0px 0px 12px 5px inset #fff;
+      border-radius: 50%;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      font-size: 25px;
+      animation: bubble 2s ease 0s infinite normal;
+  }
+  
+  .bubble:after {
+      content: '';
+      position: absolute;
+      background-color: white;
+      width: 13px;
+      height: 8px;
+      top: 10%;
+      right: 21%;
+      border-radius: 50%;
+      transform: rotateZ(30deg) scaleY(0.7);
+      -webkit-transform: rotateZ(30deg) scaleY(0.7);
+      -moz-transform: rotateZ(30deg) scaleY(0.7);
+      -ms-transform: rotateZ(30deg) scaleY(0.7);
+      -o-transform: rotateZ(30deg) scaleY(0.7);
+      filter: blur(1px);
+      -webkit-filter: blur(1px);
+  }
+  
+  @keyframes bubble-rise {
+      0% { 
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px); 
+      }
+      100% { 
+        transform: translateY(-1000px);
+        -webkit-transform: translateY(-1000px);
+        -moz-transform: translateY(-1000px);
+        -ms-transform: translateY(-1000px);
+        -o-transform: translateY(-1000px); 
+      }
+  }
+  
+  .bubble-rise {
+      position: relative;
+      display: inline-block;
+      margin: 15px;
+      top: 100%;
+      animation: bubble-rise 2s cubic-bezier(0.3, 0, 0.7, 0.75) 0s infinite normal;
+  }
+
+
+ 
+  @keyframes fish {
+      0% { 
+        transform: translate(0vw);
+        -webkit-transform: translate(0vw);
+        -moz-transform: translate(0vw);
+        -ms-transform: translate(0vw);
+        -o-transform: translate(0vw);
+      }
+      10% {
+        transform: translate(20vw, -125px);
+        -webkit-transform: translate(20vw, -125px);
+        -moz-transform: translate(20vw, -125px);
+        -ms-transform: translate(20vw, -125px);
+        -o-transform: translate(20vw, -125px); 
+      }
+      20% {
+        transform: translate(40vw, -45px) rotateZ(22deg);
+        -webkit-transform: translate(40vw, -45px) rotateZ(22deg);
+        -moz-transform: translate(40vw, -45px) rotateZ(22deg);
+        -ms-transform: translate(40vw, -45px) rotateZ(22deg);
+        -o-transform: translate(40vw, -45px) rotateZ(22deg); 
+      }
+      30% {
+        transform: translate(60vw, -250px);
+        -webkit-transform: translate(60vw, -250px);
+        -moz-transform: translate(60vw, -250px);
+        -ms-transform: translate(60vw, -250px);
+        -o-transform: translate(60vw, -250px); 
+      }
+      40% {
+        transform: translate(80vw, -80px) rotateZ(22deg);
+        -webkit-transform: translate(80vw, -80px) rotateZ(22deg);
+        -moz-transform: translate(80vw, -80px) rotateZ(22deg);
+        -ms-transform: translate(80vw, -80px) rotateZ(22deg);
+        -o-transform: translate(80vw, -80px) rotateZ(22deg); 
+      }
+      50% { 
+        transform: translate(100vw, -145px);
+        -webkit-transform: translate(100vw, -145px);
+        -moz-transform: translate(100vw, -145px);
+        -ms-transform: translate(100vw, -145px);
+        -o-transform: translate(100vw, -145px);
+      }
+      51% { 
+        transform: translate(100vw, -145px) rotateY(180deg);
+        -webkit-transform: translate(100vw, -145px) rotateY(180deg);
+        -moz-transform: translate(100vw, -145px) rotateY(180deg);
+        -ms-transform: translate(100vw, -145px) rotateY(180deg);
+        -o-transform: translate(100vw, -145px) rotateY(180deg);
+      }
+      60% { 
+        transform: translate(80vw, -80px) rotateY(180deg) rotateZ(22deg);
+        -webkit-transform: translate(80vw, -80px) rotateY(180deg) rotateZ(22deg);
+        -moz-transform: translate(80vw, -80px) rotateY(180deg) rotateZ(22deg);
+        -ms-transform: translate(80vw, -80px) rotateY(180deg) rotateZ(22deg);
+        -o-transform: translate(80vw, -80px) rotateY(180deg) rotateZ(22deg);
+      }
+      70% { 
+        transform: translate(60vw, -250px) rotateY(180deg);
+        -webkit-transform: translate(60vw, -250px) rotateY(180deg);
+        -moz-transform: translate(60vw, -250px) rotateY(180deg);
+        -ms-transform: translate(60vw, -250px) rotateY(180deg);
+        -o-transform: translate(60vw, -250px) rotateY(180deg);
+      }
+      80% { 
+        transform: translate(40vw, -45px) rotateY(180deg) rotateZ(22deg);
+        -webkit-transform: translate(40vw, -45px) rotateY(180deg) rotateZ(22deg);
+        -moz-transform: translate(40vw, -45px) rotateY(180deg) rotateZ(22deg);
+        -ms-transform: translate(40vw, -45px) rotateY(180deg) rotateZ(22deg);
+        -o-transform: translate(40vw, -45px) rotateY(180deg) rotateZ(22deg);
+      }
+      90% { 
+        transform: translate(20vw, -125px) rotateY(180deg);
+        -webkit-transform: translate(20vw, -125px) rotateY(180deg);
+        -moz-transform: translate(20vw, -125px) rotateY(180deg);
+        -ms-transform: translate(20vw, -125px) rotateY(180deg);
+        -o-transform: translate(20vw, -125px) rotateY(180deg);
+      }
+      99% { 
+        transform: translate(0vw) rotateY(180deg) rotateZ(22deg);
+        -webkit-transform: translate(0vw) rotateY(180deg) rotateZ(22deg);
+        -moz-transform: translate(0vw) rotateY(180deg) rotateZ(22deg);
+        -ms-transform: translate(0vw) rotateY(180deg) rotateZ(22deg);
+        -o-transform: translate(0vw) rotateY(180deg) rotateZ(22deg);
+      }
+      100% { 
+        transform: translate(0vw);
+        -webkit-transform: translate(0vw);
+        -moz-transform: translate(0vw);
+        -ms-transform: translate(0vw);
+        -o-transform: translate(0vw);
+      }
+  }
+  
+  .fish {
+      position: absolute;
+      left: 0px;
+      bottom: 75px;
+      animation: fish 40s cubic-bezier(0.9, 1, 0.3, 0.75) 0s infinite normal;
+  }
+  
+  .h-fish {
+    left: 0;
+    bottom: 225px;
+    animation: fish 25s cubic-bezier(0.7, 1, 0.3, 0.5) 0s infinite normal;
+  }
+  
+  .h-fish .fish-body {
+    background-color: #0098e0;
+  }
+  
+  .i-fish{
+    left: 0;
+    bottom: 300px;
+    animation: fish 30s cubic-bezier(.17,.67,1,-0.28) 0s infinite normal;
+  }
+  .j-fish{
+    left: 0;
+    top: 40px;
+    animation: fish 20s cubic-bezier(0.36, -0.42, 0.59, 0.28) 0s infinite normal;
+  }
+  .k-fish{
+    left: 0;
+    bottom: 20px;
+    animation: fish 20s cubic-bezier(0.36, 0.61, 0.3, 0.71) 0s infinite normal;
+  }
+  .l-fish{
+    right: 0;
+    bottom: 60px;
+    animation: fish 20s cubic-bezier(1, 0.61, 0.3, 0.71) 0s infinite normal;
+  }
+  .m-fish{
+    right: 0;
+    bottom: 80px;
+    animation: fish 20s cubic-bezier(1, 0.04, 0.3, 0.09) 0s infinite normal;
+  } 
+  .n-fish{
+    left: 0;
+    top: 130px;
+    animation: fish 20s cubic-bezier(0.52, 0.04, 0.96, 0.09) 0s infinite normal;
+  }
+  .o-fish{
+    left: 0;
+    top: 30px;
+    animation: fish 40s cubic-bezier(0.9, 1, 0.3, 0.75) 0s infinite normal;
+  }
+  .p-fish{
+    left: 0;
+    top: 120px;
+    animation: fish 40s cubic-bezier(.17,.67,1,-0.28) 0s ;
+  }
+  
+  /* battle1.html */
+    /* htmlで直接 */
+  
+  /* battle3.html */
+  .area-q{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  .area-r{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+  .area-s{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+  }
+  .area-t{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+  }
+  .area-u{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+  }
+  .area-v{
+    position: absolute;
+    top: 70%;
+    right: 35%;
+  }
+  .area-w{
+    position: absolute;
+  }
+  .area-x{
+    position: absolute;
+  }
+  .area-y{
+    position: absolute;
+  }
+  .area-z{
+    position: absolute;
+  }
