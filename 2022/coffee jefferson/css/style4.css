@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* header */
+
+.mv{
+    padding:50px;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+nav{
+    display: flex;
+    padding: 0 50px 50px;
+}
+.beside{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+
+}
+.beside li{
+    margin-right: 2em;
+}
+.menu_box img{
+    width: 50px;
+    margin-right: 10%;
+}
+.menu_box div h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.menu_box div p{
+    margin: 0.5em 0;
+}
+.menu_box table{
+    border-collapse:collapse;
+    width: 100%;
+}
+  
+
+
+/* common */
+html{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: chartreuse;
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+}
