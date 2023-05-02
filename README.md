@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm currently working on some project about what I spent studying through self-study.<br><br>I would appreciate some advice on what I should study next and any errors I made when writing the code.<br><br>
+I'm currently working on some project about what I spent studying through self-study.<br><br>I would appreciate some advice on what I should study next and any errors I made when writing the code.<br><br> And teach me how to use github also. <br><br>
 
 
 ## 🌐 Socials:
