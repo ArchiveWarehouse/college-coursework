@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozon Shopping Site</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;600&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> -->
+
+<!-- slick -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<style>
+    .page {
+        background: #f1f1f1;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex: 1;
+        height: 100vh;
+        position: relative;
+    }
+
+        .countdown-col {
+        background-color:#fff ;
+        background-size: cover;
+    }
+
+    .time {
+        color: #2a99e4;
+        text-transform: uppercase;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .time span {
+        padding: 0 14px;
+        font-size: 10px;
+    }
+
+    .time span div {
+        font-size: 40px;
+    }
+
+    .wrapper {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        animation: fadeIn 1000ms ease;
+        -webkit-animation: fadeIn 1000ms ease;    
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 0;
+        line-height: 1;
+        font-weight: 700;
+        color: #2a99e4;
+    }
+
+    .dot {
+        color: #000000;
+    }
+
+    p {
+        text-align: center;
+        margin: 18px;
+        font-family: 'Muli', sans-serif;
+        font-weight: normal;
+        
+    }
+
+
+@media screen and (max-width: 900px) {
+  .col {
+    flex: 100%;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/OSONE_LOGO__1_-removebg-preview.png" width="125px">
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index_copy3.php" class="nav-link">
+                                <span class="nav-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="product-copy3.html" class="nav-ink">
+                                <span class="nav-text">Product</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="About.html" class="nav-link">
+                                <span class="nav-text">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">
+                                <span class="nav-text">Contact</span>
+                            </a>
+                        </li>
+                        <li class="" nav-item>
+                            <a href="./Login_v1/change_page.php" class="" nav-link>
+                                <span class="nav-text">Account</span>
+                            </a>
+                        </li>
+                    </ul>
+                        <a href="./cart3/cart.php"><i class='bx bx-cart'></i></a>
+                </nav>
+                
+            </div>
+            
+
+        </div>
+    </div>
+    <main>
+        
+        <div class="page">
+            
+            <div class="countdown-col col">
+                <div class="wrapper">
+                    <h1>Coming Soon<span class="dot">.</span></h1>
+                    <p><img src="./img/OSONE_LOGO__1_-removebg-preview.png" width="180px" alt=""></p>
+                    
+                   </div>
+              <div class="time middle">
+                <span><div id="days">12</div> Days</span>
+                <span><div id="hours">06</div> Hours</span>
+                <span><div id="minutes">35</div> Minutes</span>
+                <span><div id="seconds">54</div> Seconds</span>
+              </div>
+            </div>
+            <!-- <div class="newsletter-col col">
+              <div class="newslatter middle">
+                <h2>We Will Coming Soon</h2>
+                <h4>Subscribe to get notification when we start</h4>
+                <form>
+                  <input type="text" placeholder="Enter Your Email"/>
+                  <button type="button" class="newslatter-button">Subscribe</button>
+                </form>
+              </div>
+            </div> -->
+          </div>
+    </main>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Please Rate our website</h3>
+                    <p>Rating does means a lot to us</p>
+                    
+                    
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/OSONE_LOGO__1_-removebg-preview.png">
+                    <p>Our Purpose is to make sure that Ozone online shop is fast, secure, and reliable.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4" id="contact">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com">Facebook</a></li>
+                        <li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+                        <li><a href="https://www.instagram.com">Instagram</a></li>
+                        <li><a href="https://www.youtube.com">Youtube</a></li>
+                        
+                    </ul>
+                </div> 
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+                let comingDate = new Date('Feb 8, 2030 13:12:00')
+
+                let d = document.getElementById('days')
+                let h = document.getElementById('hours')
+                let m = document.getElementById('minutes')
+                let s = document.getElementById('seconds')
+
+                let x = setInterval(function() {
+                let now = new Date()
+                let selisih = comingDate.getTime() - now.getTime()
+
+                let days    = Math.floor(selisih / (1000 * 60 * 60 * 24))
+                let hours   = Math.floor(selisih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+                let minutes = Math.floor(selisih % (1000 * 60 * 60) / (1000 * 60))
+                let seconds = Math.floor(selisih % (1000 * 60) / 1000)
+
+                d.innerHTML = getTrueNumber(days)
+                h.innerHTML = getTrueNumber(hours)
+                m.innerHTML = getTrueNumber(minutes)
+                s.innerHTML = getTrueNumber(seconds)
+
+                if (selisih < 0) {
+                    clearInterval(x)
+                    d.innerHTML = '00'
+                    h.innerHTML = '00'
+                    m.innerHTML = '00'
+                    s.innerHTML = '00'
+                }
+                }, 1000)
+
+                function getTrueNumber(x) {
+                if (x < 10) return '0' + x
+                else return x
+                }
+    </script>
+</body>
+</html>
+
