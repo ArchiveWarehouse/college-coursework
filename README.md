@@ -4,6 +4,7 @@ I'm currently working on some project about what I spent studying through self-s
 # ❌ What I can't do: 
 I still cannot figure out how to make my site responsive for phone screens, and other aspects.<br><br>
 But I'm willing to learn more about it.<br><br>
+[![](https://visitcount.itsvg.in/api?id=jeffersonfed&icon=5&color=1)](https://visitcount.itsvg.in)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ritchmi.shl) 
