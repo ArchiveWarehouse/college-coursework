@@ -1,4 +1,5 @@
-
+### This group has already disbanded.
+### Reason: everyone wants to pursue higher education
 # Online Shop 50% Complete [Will not resume]
 
 
