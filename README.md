@@ -6,7 +6,7 @@ I'm currently working on some project about what I spent studying through self-s
 I still cannot figure out how to make my site responsive for phone screens, and other aspects.<br><br>
 But I'm willing to learn more about it.<br><br>
 
-# Spotify
+# 🎧 Spotify
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true)](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&redirect=true)
 ![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=215lqconp3eomcjzwaufygfri)
 
