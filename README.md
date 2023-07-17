@@ -1,3 +1,4 @@
+[![](https://visitcount.itsvg.in/api?id=jeffersonfed&label=Profile%20Views&color=12&icon=5&pretty=false)](https://visitcount.itsvg.in)
 # 💫 About Me:
 I'm currently working on some project about what I spent studying through self-study.<br><br>I would appreciate some advice on what I should study next and any errors I made when writing the code.<br><br> And teach me how to use github also. <br><br>
 
