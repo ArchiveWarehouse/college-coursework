@@ -7,6 +7,9 @@ I still cannot figure out how to make my site responsive for phone screens, and 
 But I'm willing to learn more about it.<br><br>
 [![](https://visitcount.itsvg.in/api?id=jeffersonfed&icon=5&color=1)](https://visitcount.itsvg.in)
 
+# Spotify
+![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=215lqconp3eomcjzwaufygfri)
+
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ritchmi.shl) 
 
