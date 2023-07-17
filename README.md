@@ -5,7 +5,6 @@ I'm currently working on some project about what I spent studying through self-s
 # ❌ What I can't do: 
 I still cannot figure out how to make my site responsive for phone screens, and other aspects.<br><br>
 But I'm willing to learn more about it.<br><br>
-[![](https://visitcount.itsvg.in/api?id=jeffersonfed&icon=5&color=1)](https://visitcount.itsvg.in)
 
 # Spotify
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true)](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&redirect=true)
