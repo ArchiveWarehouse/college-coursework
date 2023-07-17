@@ -8,7 +8,7 @@ But I'm willing to learn more about it.<br><br>
 [![](https://visitcount.itsvg.in/api?id=jeffersonfed&icon=5&color=1)](https://visitcount.itsvg.in)
 
 # Spotify
-![https://spotify-github-profile.vercel.app/api/view.svg?uid=215lqconp3eomcjzwaufygfri&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=215lqconp3eomcjzwaufygfri&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true)]
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true)](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&redirect=true)
 ![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=215lqconp3eomcjzwaufygfri)
 
 
