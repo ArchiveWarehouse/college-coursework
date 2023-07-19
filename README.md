@@ -1,4 +1,5 @@
 [![](https://visitcount.itsvg.in/api?id=jeffersonfed&icon=5&color=1)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=jeffersonfed&label=Profile%20Visits&color=blue&style=flat)](https://github.com/jeffersonfed)
 # 💫 About Me:
 I'm currently working on some project about what I spent studying through self-study.<br><br>I would appreciate some advice on what I should study next and any errors I made when writing the code.<br><br> And teach me how to use github also. <br><br>
 
