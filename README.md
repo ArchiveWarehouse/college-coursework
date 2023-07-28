@@ -1,4 +1,4 @@
-
+# My Old Project
 <h2 align="center">
   
 [![](https://komarev.com/ghpvc/?username=jeffersonfed&label=Profile%20Visits&color=blue&style=flat)](#top)
@@ -8,8 +8,11 @@
 [![Gists Badge](https://badges.pufler.dev/gists/jeffersonfed?&color=blue)](https://gist.github.com/jeffersonfed)
 [![Updated Badge](https://badges.pufler.dev/updated/jeffersonfed/jeffersonfed?&color=blue)](#top)
 
-[![BuyMeACoffee](https://img.shields.io/badge/Support%20Me-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://keybase.io/jeffersonfed)
+[![Keybase](https://img.shields.io/badge/Keybase-black?style=flat&logo=keybase&logoColor=orange)](https://keybase.io/jeffersonfed)
+[![BuyMeACoffee](https://img.shields.io/badge/Support%20Me-ffdd00?&style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersonfed)
+
 </h2>
+
 # 💫 About Me:
 I'm currently working on some project about what I spent studying through self-study.<br><br>I would appreciate some advice on what I should study next and any errors I made when writing the code.<br><br> And teach me how to use github also. <br><br>
 
