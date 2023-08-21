@@ -43,8 +43,4 @@ While I may have paused the project at its halfway point, I consider this experi
 - 西田
 - Muhammad Raffi
 
-## Advice
-
-Any advice is welcomed, please reach out to me at [Jefferson](https://www.instagram.com/ritchmi.shl/)
-
 #### Last Updated March 2023
