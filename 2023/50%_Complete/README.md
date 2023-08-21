@@ -34,6 +34,10 @@ Throughout this journey, I learned the importance of adaptability and resilience
 
 While I may have paused the project at its halfway point, I consider this experience to be invaluable. It has taught me the significance of proper planning, continuous learning, and adaptability in the face of challenges. Armed with these lessons, I am eager to resume my endeavor, armed with newfound knowledge and a renewed determination to build an online shop that will surpass expectations and thrive in the competitive e-commerce landscape.
 
+## Overview
+
+![Homepage](/../../../../jeffersonfed/Old-Project/tree/main/2023/50%25_Complete/assets/homepage.png)
+![Homepage Overview](/../../../../jeffersonfed/Old-Project/tree/main/2023/50%25_Complete/assets/Ozon%20Shopping%20Site.pdf)
 
 ## Authors
 
