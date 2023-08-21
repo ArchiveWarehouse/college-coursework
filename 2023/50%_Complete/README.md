@@ -36,8 +36,27 @@ While I may have paused the project at its halfway point, I consider this experi
 
 ## Overview
 
-![Homepage](/../../../../jeffersonfed/Old-Project/tree/main/2023/50%25_Complete/assets/homepage.png)
-![Homepage Overview](/../../../../jeffersonfed/Old-Project/tree/main/2023/50%25_Complete/assets/Ozon%20Shopping%20Site.pdf)
+<div align="center">
+  <div>
+    <img alt="Homepage" src="./assets/homepage.png" />
+    <img alt="Product-list" src="./assets/product-list.pngg" />
+    <img alt="Product-list2" src="./assets/product-list2.png" />
+    <img alt="Product-Overview" src="./assets/product-overview.png" />
+    <img alt="Account-Overview" src="./assets/account-overview.png" />
+    <img alt="Account-Profie" src="./assets/account-profile.png" />
+    <img alt="Account-Order" src="./assets/account-order.png" />
+    <img alt="Cart" src="./assets/cart.png" />
+    <img alt="Cart2" src="./assets/cart2.png" />
+  </div>
+  <br><br>
+  <div>
+    <h2><a href="./assets/Ozon%20Shopping%20Site.pdf" target="_blank">Homepage Overview PDF</a><br>
+    <a href="./assets/Ozon%20Shopping%20Site-about.pdf" target="_blank">About Overview PDF</a><br>
+    <a href="./assets/Ozon%20Shopping%20Site-product.pdf" target="_blank">Product Overview PDF</a><br>
+    <a href="./assets/Login.pdf" target="_blank">Login Overview PDF</a></h2>
+  </div>
+</div>
+
 
 ## Authors
 
