@@ -1,0 +1,45 @@
+/* check_code */
+body {
+    background: #f7f7f7;
+}
+
+.logo img {
+    margin-top: 5rem !important;
+    width: 250px;
+}
+
+.log {
+    text-align: center;
+}
+
+.bgWhite {
+    margin: 0 auto;
+    margin-top: 2rem !important;
+    background: white;
+    box-shadow: 5px 15px 25px #cacaca;
+}
+
+.title {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 24px
+}
+
+
+.desc {
+    margin-top: 10px;
+    color: #555;
+}
+
+.customBtn {
+    width: 100%;
+    border-radius: 0px;
+    /* padding: 10px; */
+}
+
+form input {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}

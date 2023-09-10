@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Login_v1/css/style2.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>input address</title>
+</head>
+<body>
+    <div id="app">
+        <form method="POST" action="../sent/check.php">  
+            <table>
+                <tbody>
+                    <tr>
+                        <th>郵便番号</th>
+                        <td>
+                            <input id="input" class="zipcode" type="text" name="zipcode" value="" placeholder="例)8120012">
+                            <button id="search" type="button">住所検索</button>
+                            <p id="error"></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>都道府県</th>
+                        <td><input id="address1" type="text" name="address1" value=""></td>
+                    </tr>
+
+                    <tr>
+                        <th>市区町村</th>
+                        <td><input id="address2" type="text" name="address2" value=""></td>
+                    </tr>
+
+                    <tr>
+                        <th>町域</th>
+                        <td><input id="address3" type="text" name="address3" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>マンションと部屋番号</th>
+                        <td><input id="mashion" type="text" name="mashion" value=""></td>
+                    </tr>
+                <script src="https://cdn.jsdelivr.net/npm/fetch-jsonp@1.1.3/build/fetch-jsonp.min.js"></script>
+                <script src="../Login_v1/js/text.js"></script>
+            
+                
+                </tbody>
+            </table>
+                <!-- <a class="startbtn" >
+                    Save<br>
+                <span class="Save"></span>
+            </a>
+            <a style="text-decoration: none; color: black;" href="../Account.html"><i style="color: black;" class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a> -->
+                <input type="submit" name="sub" value="save">
+        </form>  
+    </div>
+    
+</body>
+</html>

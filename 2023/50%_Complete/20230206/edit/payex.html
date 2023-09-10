@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background: rgb(185,214,233);
+            background: radial-gradient(circle, rgba(185,214,233,1) 100%, rgba(252,252,252,0) 100%);
+            
+        }
+        .seiko{
+            margin: 0 0 auto;
+            color: red;
+            width: 100%;
+            padding-left: 47%;
+            padding-top: 15%;
+            font-size: 30px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: #fff;
+        }
+        .btn{
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(239, 87, 87, 0.5);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+        }
+        .escape{
+            position: absolute;
+            top: 40%;
+            left: 49.7%;
+        }
+        #home{
+            display: flex;
+            float: left;
+            padding-left: 46%;
+        }
+        .dots {
+            width: 24px;
+            height: 11.5px;
+            background: radial-gradient(circle closest-side,#000000 90%,#0000) 0%   50%,
+                    radial-gradient(circle closest-side,#000000 90%,#0000) 50%  50%,
+                    radial-gradient(circle closest-side,#000000 90%,#0000) 100% 50%;
+            background-size: calc(100%/3) 5.8px;
+            background-repeat: no-repeat;
+            animation: dots-7ar3yq 1s infinite linear;
+            padding-top: 8px;
+        }
+        @keyframes dots-7ar3yq {
+            20% {
+                background-position: 0%   0%, 50%  50%,100%  50%;
+            }
+
+            40% {
+                background-position: 0% 100%, 50%   0%,100%  50%;
+            }
+
+            60% {
+                background-position: 0%  50%, 50% 100%,100%   0%;
+            }
+
+            80% {
+                background-position: 0%  50%, 50%  50%,100% 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="seiko">送信成功。</div>
+    <div id="home">
+        <a href="../index_copy3.php">ホームページ戻ります</a><div class="dots"></div>
+    </div>
+    
+
+
+    <!-- <script>
+        var timer = setTimeout(function() {
+            window.location='../index_copy3.php'
+        }, 6000);
+    </script> -->
+</body>
+</html>

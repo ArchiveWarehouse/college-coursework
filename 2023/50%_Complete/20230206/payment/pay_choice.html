@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pau_choice</title>
+    <link rel="stylesheet" href="../Login_v1/css/style2.css">
+    <style>
+        #texbox{
+            float: right;
+        }
+        button{
+            float: right;
+            top: 8px;
+            right: 2px;
+            margin-left: 35%;
+        }
+        .home{
+            margin-left: 36%;
+        }
+        #check{
+            margin-left: 43%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+    <form action="../sent/check.php" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <select name="pay_type_1" id="">
+                            <option value="Visa">Visa</option>
+                            <option value="Master">Master</option>
+                            <option value="Papay">Papay</option>
+                            <option value="convenience store">convenience store</option>
+
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>    
+                        <input id="check" type="submit" name="pay_type" value="save">
+    </form>
+</body>
+</html>

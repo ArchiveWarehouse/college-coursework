@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="../payment/pay.php" method="post">
+        <!-- product and price  -->
+        <!-- product_name = {$_POST['name']}
+                price per product = {$_POST['ppp']}
+                amont = {$_POST['am']}
+                total = {$_POST['tp']}
+                address = {$_POST['add']}
+                payment by = {$_POST['pb']} -->
+        product_name = Miku<br>
+        price per one product = 2000 <br>
+        amount = 1 <br>
+        total price = 2000 <br>
+        <!-- change address or edit address  -->
+        <div>
+            address = 5330014大阪府大阪市東淀川区豊新123<br>
+            <!-- <a href="../edit_address/input_add.html"><button type="button" id="btn">edit</button><br></a> -->
+            <!-- <button type="button" id="btn">edit</button><br> -->
+        </div>
+    <!-- choose payment -->
+        <div>
+            payment by = Visa<br>
+            <!-- <a href="../payment/pay_choice.html"><button type="button" id="btn">edit</button><br></a> -->
+
+        </div>
+        <input type="submit" name="sub" value="pay">
+    </form>
+</body>
+</html>
