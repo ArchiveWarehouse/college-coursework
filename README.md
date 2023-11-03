@@ -8,22 +8,12 @@
 [![Gist](https://badges.pufler.dev/gists/jeffersonfed?&label=Gist&color=blue&icon=5&pretty=false&style=flat)](https://gist.github.com/jeffersonfed)
 [![Updated Badge](https://badges.pufler.dev/updated/jeffersonfed/Old-Project?&label=Last%20Updated&color=blue&icon=5&pretty=false&style=flat)](#top)
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2.svg?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/jeffersonfed14) 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jeffersonfed)
-[![Keybase](https://img.shields.io/badge/Keybase-black?style=flat&logo=keybase&logoColor=orange)](https://keybase.io/jeffersonfed/)
-[![BuyMeACoffee](https://img.shields.io/badge/Support%20Me-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersonfed)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&redirect=true)
 
-[![Portfolio](https://img.shields.io/badge/My%20Portfolio-dfe6e9?&logoColor=dfe6e9)](https://jeffersonrj.vercel.app)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2.svg?style=plastic&logo=Twitter&logoColor=white)](https://twitter.com/jeffersonfed14) 
+[![Keybase](https://img.shields.io/badge/Keybase-black?style=plastic&logo=keybase&logoColor=orange)](https://keybase.io/jeffersonfed/)
+[![Sponsor](https://img.shields.io/badge/SPONSOR-30363D?style=plastic&logo=GitHub-Sponsors&logoColor=#white)](https://ko-fi.com/jeffersonfed)
 </h2>
-
-# 🛠 Skills:
-[![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,react,bootstrap,py)](https://skillicons.dev)
-
-# 🎧 Spotify
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true)](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&redirect=true)
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=215lqconp3eomcjzwaufygfri)
-
-
 
 
 
